@@ -5,27 +5,28 @@ synapses:
   server-ip: play.turbinepe.tk
   server-port: 19132
   is-main-server: true
-  server-password: 32bitlongkeyescription: "TurbinePE Hub Server"
+  server-password: 32bitlongkey
+  description: "Hub"
   verbose-logging: false
 - enabled: true
   server-ip: real.turbinepe.tk
   server-port: 19132
   is-main-server: false
   server-password: 32bitlongkey
-  description: "TurbinePE Realistic GM Server"
+  description: "Realistic"
   verbose-logging: false
 - enabled: true
   server-ip: c.turbinepe.tk
   server-port: 19132
   is-main-server: false
   server-password: 32bitlongkey
-  description: "TurbinePE Creative Server"
+  description: "Creative"
   verbose-logging: false
 - enabled: true
   server-ip: ef.turbinepe.tk
   server-port: 19132
   is-main-server: false
   server-password: 32bitlongkey
-  description: "TurbinePE Extended Features Server"
+  description: "EF"
   verbose-logging: false
 loadingScreen: false
