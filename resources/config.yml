@@ -1,11 +1,31 @@
 enabled: true
 disable-rak: true
 synapses:
-# - enabled: true
-#   server-ip: 127.0.0.1
-#   server-port: 10305
-#   is-main-server: true
-#   server-password: 32bitlongkey
-#   description: "A Synapse client"
-#   verbose-logging: false
-loadingScreen: true
+- enabled: true
+  server-ip: play.turbinepe.tk
+  server-port: 19132
+  is-main-server: true
+  server-password: 32bitlongkeyescription: "TurbinePE Hub Server"
+  verbose-logging: false
+- enabled: true
+  server-ip: real.turbinepe.tk
+  server-port: 19132
+  is-main-server: false
+  server-password: 32bitlongkey
+  description: "TurbinePE Realistic GM Server"
+  verbose-logging: false
+- enabled: true
+  server-ip: c.turbinepe.tk
+  server-port: 19132
+  is-main-server: false
+  server-password: 32bitlongkey
+  description: "TurbinePE Creative Server"
+  verbose-logging: false
+- enabled: true
+  server-ip: ef.turbinepe.tk
+  server-port: 19132
+  is-main-server: false
+  server-password: 32bitlongkey
+  description: "TurbinePE Extended Features Server"
+  verbose-logging: false
+loadingScreen: false
