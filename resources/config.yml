@@ -1,5 +1,5 @@
 enabled: true
-disable-rak: true
+disable-rak: false
 synapses:
 - enabled: true
   server-ip: play.turbinepe.tk
