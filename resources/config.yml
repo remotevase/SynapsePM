@@ -9,22 +9,22 @@ synapses:
   description: "Hub"
   verbose-logging: false
 - enabled: true
-  server-ip: real.turbinepe.tk
-  server-port: 19132
+  server-ip: play.turbinepe.tk
+  server-port: 19133
   is-main-server: false
   server-password: 32bitlongkey
   description: "Realistic"
   verbose-logging: false
 - enabled: true
-  server-ip: c.turbinepe.tk
-  server-port: 19132
+  server-ip: play.turbinepe.tk
+  server-port: 19134
   is-main-server: false
   server-password: 32bitlongkey
   description: "Creative"
   verbose-logging: false
 - enabled: true
-  server-ip: ef.turbinepe.tk
-  server-port: 19132
+  server-ip: play.turbinepe.tk
+  server-port: 19135
   is-main-server: false
   server-password: 32bitlongkey
   description: "EF"
