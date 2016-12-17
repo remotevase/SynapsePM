@@ -1,0 +1,25 @@
+In config on Lobby:
+  enabled: true
+  disable-rak: false
+  synapses:
+  - enabled: true
+      server-ip: play.turbinepe.tk
+      server-port: 19132
+      is-main-server: true
+      server-password: 32bitlongkey
+      description: "Hub"
+      verbose-logging: false
+    loadingScreen: false
+    
+In config on other servers (EG: Realistic)
+  enabled: true
+  disable-rak: false
+  synapses:
+  - enabled: true
+      server-ip: play.turbinepe.tk
+      server-port: 19133
+      is-main-server: true
+      server-password: 32bitlongkey
+      description: "Realistic"
+      verbose-logging: false
+    loadingScreen: false
